@@ -7,8 +7,8 @@ use \gftp\FtpException;
 use \gftp\converter\SftpFileListConverter;
 use \gftp\converter\SimpleFileListConverter;
 use gftp\FtpUtils;
-use \phpseclib\Net\SFTP;
-use \phpseclib\Crypt\RSA;
+use phpseclib\Net\SFTP;
+use phpseclib\Crypt\RSA;
 use \Yii;
 use yii\base\BaseObject;
 
