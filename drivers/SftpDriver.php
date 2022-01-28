@@ -5,8 +5,8 @@ namespace gftp\drivers;
 use \gftp\FtpException;
 use \gftp\converter\SftpFileListConverter;
 use \gftp\converter\SimpleFileListConverter;
-use \phpseclib\Net\SFTP;
-use \phpseclib\Crypt\RSA;
+use phpseclib\Net\SFTP;
+use phpseclib\Crypt\RSA;
 use \Yii;
 
 /**
